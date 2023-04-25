@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juan fernando Pacheco</title>
+</head>
+<body class="formulario-registro">
+    <h1>Formulario de registro</h1>
+    <h3>¿Ya tienes cuenta?<a href="#">Inicia sesion</a></h3>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+        <li>
+            <label for="primer-nombre">Primer Nombre:</label>
+            <input class="controls" type="text" id="primer-nombre" name="user_name">
+        </li>
+        <li>
+            <label for="segundo-nombre">Segundo Nombre:</label>
+            <input type="text" class="controls" id="segundo-nombre" name="user_name">
+            </li>
+        <li>
+            <label for="primer-apellido">Primer apellido:</label>
+            <input type="text" class="controls" id="primer-apellido" name="user_name">
+        </li>
+        <li>
+            <label for="segundo-apellido">Segundo apellido:</label>
+            <input type="text" class="controls" id="segundo-apellido" name="user_name">
+        </li>
+            <label>Seleccione su genero</label>
+            <select class="control-select" name="genero">
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Sin definir</option>
+            </select>
+        <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" class="controls" id="mail" name="user_mail">
+        </li>
+            <label>Ciudad de residencia</label>
+            <select class="control-select" name="ciudad-de-residencia">
+                <option>Bogota</option>
+                <option>Medellin</option>
+                <option>Cali</option>
+                <option>Barranquilla</option>
+                <option>Cartagena</option>
+                <option>Cucuta</option>
+                <option>Bucaramanga</option>
+                <option>Pereira</option>
+                <option>Manizales</option>
+                <option>Ibague</option>
+                <option>Santa Marta</option>
+                <option>Otro</option>
+            </select>
+        <li>
+            <label for="direccion-residencia">Direccion de residencia:</label>
+            <input type="text" class="controls" id="direccion-residencia" name="user_direction">
+        </li>
+        <li>
+            <label for="numero-celular">Numero de Celular:</label>
+            <input type="number" class="controls" id="numero-celular" name="user_telephone">
+        </li>
+        <li>
+            <label>Habla sobre ti</label>
+            <textarea class="controls">
+
+            </textarea>
+            <p>He leido y estoy de acuerdo con los <a href="#">terminos y condiciones</p></a>
+        </li>
+        <input type="submit" value="Registrarse" >
+    </form>
+</body>
+</html>
